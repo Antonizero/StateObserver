@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-container input {
+    padding: 5px;
+    flex: 4;
+}
+
+.input-container button {
+    flex: 1;
+}
+
+.weight700 {
+    font-weight: 700;
+}
+
+.row {
+    display: flex;
+}
+.col-6 {
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-right: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+.col-6:last-child {
+    margin-right: 0px;
+}
